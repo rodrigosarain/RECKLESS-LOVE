@@ -92,7 +92,6 @@ $size-height:100px;
     height: 57px;
     background-color: #00152b;
     color: #fff;
-    width: 1920px;
 }
 
 
@@ -173,10 +172,12 @@ $size-height:100px;
     align-items: flex-start;
     flex-wrap: wrap;
     cursor: pointer;
-    margin: 35px, 10px, 50px, 10px;
+    margin: 0px, 0px, 0px, 0px;
     img{
         width: 500px;
         height: 500px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         
     }
 }
@@ -500,6 +501,30 @@ li a{
 }
 }
 
+@media only screen and (max-width:820px){
+    .header__index{
+        width: 780px;
+        zoom: 80%;
+        position: center;
+        top: 250px;
+    }
+    .about-content{
+        display: grid;
+        img{
+            zoom: 180%;
+            margin: 0px 0px 0px 35px;
+        }
+    }
+
+    .news_content{
+        display: grid;
+        img{
+         zoom: 100%;
+     }
+    }
+}
+
+
 @media only screen and (max-width:800px){
     .header__index{
         width: 780px;
@@ -530,6 +555,14 @@ li a{
      }
      }
  }
+ @media only screen and (max-width:768px){
+    .about-content img{
+        zoom: 170%;
+        margin: 0px 0px 0px 35px;
+    }
+
+}
+ 
  @media only screen and (max-width:624px){
     .header__index{
         width: 780px;
@@ -746,5 +779,6 @@ li a{
     
 }
 
+//*FIN RESPONSIVE E INICIO DE ANIMACIONES Y SEO*//
 
   
